@@ -15,7 +15,7 @@
 #pragma comment(lib, "shell32.lib")
 #pragma comment(lib, "shlwapi.lib")
 
-static char ClefJeton[] = "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";
+static char ClefJeton[] = ""; //votre code personnel
 static char NomDepot[0xfe];
 static char NomLien[0x104];//MAX_PATH
 static std::wstring s2ws(const std::string& str);
@@ -128,3 +128,4 @@ int main() {
 	NouveauProjet();
 	return 0;
 }
+
